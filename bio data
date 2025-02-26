@@ -117,7 +117,7 @@
 <body>
 
     <div class="container">
-        <img src="" alt="Profile Picture" class="profile-img">
+        <img src="image.jpg" alt="Profile Picture" class="profile-img">
         <h1>Anshul Jangra </h1>
         <p>Software Developer | Tech Enthusiast</p>
 
