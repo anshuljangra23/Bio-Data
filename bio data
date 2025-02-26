@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata</title>
+    <style>
+        /* Global Styling */
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #74ebd5, #acb6e5); /* Same Background */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        /* Container Styling */
+        .container {
+            width: 90%;
+            max-width: 500px;
+            background: white;
+            padding: 25px;
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+            border-radius: 15px;
+            text-align: center;
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        /* Profile Image */
+        .profile-img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            border: 4px solid #74ebd5;
+            margin-bottom: 15px;
+        }
+
+        /* Heading */
+        h1 {
+            color: #333;
+            margin: 5px 0;
+        }
+
+        p {
+            color: #666;
+            font-size: 14px;
+            margin-bottom: 15px;
+        }
+
+        /* Info Box */
+        .info {
+            text-align: left;
+            padding: 12px;
+            margin: 5px 0;
+            background: #f4f4f4;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+        }
+
+        .info strong {
+            flex: 1;
+            color: #555;
+        }
+
+        /* Social Buttons */
+        .social-links {
+            margin-top: 15px;
+        }
+
+        .social-btn {
+            display: inline-block;
+            text-decoration: none;
+            color: white;
+            font-size: 14px;
+            padding: 10px 15px;
+            border-radius: 5px;
+            margin: 5px;
+            transition: 0.3s ease-in-out;
+        }
+
+        .linkedin {
+            background: #0077b5;
+        }
+
+        .linkedin:hover {
+            background: #005f8d;
+        }
+
+        .email {
+            background: #333;
+        }
+
+        .email:hover {
+            background: #222;
+        }
+
+        /* Responsive */
+        @media (max-width: 600px) {
+            .container {
+                width: 95%;
+                padding: 15px;
+            }
+        }
+
+        /* Fade-in animation */
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <img src="" alt="Profile Picture" class="profile-img">
+        <h1>Anshul Jangra </h1>
+        <p>Software Developer | Tech Enthusiast</p>
+
+        <div class="info"><strong>Age:</strong> 19</div>
+        <div class="info"><strong>Gender:</strong> Male</div>
+        <div class="info"><strong>Email:</strong> anshuljangra@example.com</div>
+        <div class="info"><strong>Phone:</strong> +91 1234567890</div>
+        <div class="info"><strong>Address:</strong> Vadgaon, India</div>
+        <div class="info"><strong>Education:</strong> Bachelor's in Computer Science</div>
+        <div class="info"><strong>Skills:</strong> HTML, CSS, JavaScript, Python</div>
+
+        <!-- Social Media Links -->
+        <div class="social-links">
+            <a href="https://linkedin.com/in/anshuljangra" target="_blank" class="social-btn linkedin">LinkedIn</a>
+            <a href="mailto:anshul@example.com" class="social-btn email">Email</a>
+        </div>
+    </div>
+
+</body>
+</html>
